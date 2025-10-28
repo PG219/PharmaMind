@@ -1,0 +1,88 @@
+{
+  "drug_name": "Aspirin",
+  "summary": {
+    "overall_insight": "Aspirin shows significant repurposing potential based on recent research and market analysis."
+  },
+  "clinical_trials": {
+    "total_trials": 0,
+    "trials_by_disease": {},
+    "key_trials": [],
+    "summary": "Exploration of nanotechnology for aspirin delivery (nanosensors), repurposing for cancer therapy via structural modifications (anthraquinone derivatives), and ongoing studies on preventive roles in preeclampsia."
+  },
+  "research_papers": {
+    "total_papers": 3,
+    "key_topics": [
+      "Novel anthraquinone-based aspirin derivatives with anti-cancer activity"
+    ],
+    "top_papers": [
+      {
+        "title": "Prevention of preeclampsia.",
+        "year": 2024,
+        "authors": [
+          "Brownfoot F",
+          "Rolnik DL"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38373378/"
+      },
+      {
+        "title": "Aspirin nanosensors.",
+        "year": 2025,
+        "authors": [
+          "Koohkansaadi G",
+          "Tabean M",
+          "Mohagheghi A",
+          "Masoumi S",
+          "Jahanabad ZJ",
+          "Mobed A",
+          "Charsouei S"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40058719/"
+      },
+      {
+        "title": "Preparation of novel anthraquinone-based aspirin derivatives with anti-cancer activity.",
+        "year": 2021,
+        "authors": [
+          "Lin S",
+          "Zhang Y",
+          "Wang Z",
+          "Zhang S",
+          "Li Y",
+          "Fan Y",
+          "Li D",
+          "Li S",
+          "Bai Y"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33741381/"
+      }
+    ],
+    "summary": "Exploration of nanotechnology for aspirin delivery (nanosensors), repurposing for cancer therapy via structural modifications (anthraquinone derivatives), and ongoing studies on preventive roles in preeclampsia."
+  },
+  "patents": {
+    "total_patents": 0,
+    "recent_patents": [],
+    "patent_trend": {},
+    "summary": "Patent activity suggests growing interest in new applications."
+  },
+  "market_analysis": {
+    "top_indications": [
+      {
+        "disease": "Anthraquinone-Based Anti-Cancer Repurposing",
+        "market_size_usd_billion": 2e-7,
+        "competition": "Big pharmaceutical company A (Anthraquinone derivatives), Oncology-focused biotech B (Targeted therapies), Generic drug manufacturer C (Cancer treatment lines)",
+        "potential_score": 0.33
+      }
+    ],
+    "summary": "Analysis of 1 potential indications completed. See top_indications for details."
+  },
+  "visualization_data": {
+    "charts": {
+      "trials_by_disease": {},
+      "patent_trend": {},
+      "market_potential": {}
+    }
+  },
+  "report_links": {
+    "pdf_report": "https://pharmamind.ai/reports/aspirin_report.pdf",
+    "timestamp": "2025-10-29T04:44:06.273088"
+  }
+}
