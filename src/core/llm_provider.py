@@ -1,42 +1,42 @@
 """
 LLM Provider Configuration
-This file centralizes the LLM configuration, using OpenRouter
-to access the specified model.
+This file centralizes the LLM configuration.
+We are now using Google Gemini via the ChatGoogleGenerativeAI integration.
 """
 import os
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Get the API key from environment variables
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-if not OPENROUTER_API_KEY:
-    raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in your .env file.")
+if not GOOGLE_API_KEY:
+    raise ValueError("GOOGLE_API_KEY not found in environment variables. Please set it in your .env file.")
 
 # --- Centralized LLM Instance ---
 
 def get_llm():
     """
-    Initializes and returns the Chat LLM instance configured for OpenRouter.
-    We use the DeepSeek R1T2 Chimera model, which is a powerful free model on OpenRouter.
+    Initializes and returns the Chat LLM instance configured for
+    Google Gemini (gemini-1.5-flash-latest).
     """
     
-    # Note: We are using "openrouter/tgi/deepseek-r1t2-chimera"
-    # This is a model you requested and is available on the free tier.
-    llm = ChatOpenAI(
-        model_name="tngtech/deepseek-r1t2-chimera:free",
-        openai_api_key=OPENROUTER_API_KEY,
-        openai_api_base="https://openrouter.ai/api/v1",
+    # We use gemini-1.5-flash-latest. It's fast, cheap, and
+    # excellent at following structured JSON instructions.
+    llm = ChatGoogleGenerativeAI(
+        model="models/gemini-1.5-flash-latest",
+        google_api_key=GOOGLE_API_KEY,
         temperature=0,      # Set to 0 for deterministic, factual outputs
-        max_tokens=4096,    # Adjust as needed for report size
-        streaming=False
+        convert_system_message_to_human=True # Helps with compatibility
     )
     
-    print("[LLM Provider] Initialized LLM with model: openrouter/tgi/deepseek-r1t2-chimera")
+    print("[LLM Provider] Initialized LLM with model: gemini-1.5-flash-latest")
     return llm
 
 # Create the global llm instance that other modules can import
+# Because of this line, no other files need to be changed.
 llm = get_llm()
+

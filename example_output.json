@@ -4,15 +4,34 @@
     "overall_insight": "Aspirin shows significant repurposing potential based on recent research and market analysis."
   },
   "clinical_trials": {
-    "total_trials": 0,
-    "trials_by_disease": {},
-    "key_trials": [],
-    "summary": "Exploration of nanotechnology for aspirin delivery (nanosensors), repurposing for cancer therapy via structural modifications (anthraquinone derivatives), and ongoing studies on preventive roles in preeclampsia."
+    "total_trials": 2,
+    "trials_by_disease": {
+      "Pre-Eclampsia, Hypertension in Pregnancy, Obesity": 1,
+      "Polycythemia Vera, Essential Thrombocythemia, Prefibrotic/Early Primary Myelofibrosis, JAK2 V617F, High-risk Patients": 1
+    },
+    "key_trials": [
+      {
+        "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "year": 2019,
+        "url": "https://clinicaltrials.gov/"
+      },
+      {
+        "title": "AVAJAK: Apixaban/Rivaroxaban Versus Aspirin for Primary Prevention of Thrombo-embolic Complications in JAK2V617F-positive Myeloproliferative Neoplasms",
+        "phase": "PHASE3",
+        "status": "RECRUITING",
+        "year": 2022,
+        "url": "https://clinicaltrials.gov/"
+      }
+    ],
+    "summary": "1) Repurposing for obstetric applications (preeclampsia prevention) with dose optimization studies\n2) Exploration in hematologic malignancies with high thrombotic risk (JAK2V617F+ MPNs)\n3) Development of novel formulations (nanosensors) and derivatives (anthraquinone-based anti-cancer compounds)\n4) Comparative effectiveness research against newer anticoagulants in secondary prevention settings"
   },
   "research_papers": {
     "total_papers": 3,
     "key_topics": [
-      "Novel anthraquinone-based aspirin derivatives with anti-cancer activity"
+      "Prevention of preeclampsia in high-risk pregnancies",
+      "Primary prevention of thromboembolic complications in JAK2V617F-positive myeloproliferative neoplasms"
     ],
     "top_papers": [
       {
@@ -25,37 +44,19 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/38373378/"
       },
       {
-        "title": "Aspirin nanosensors.",
-        "year": 2025,
-        "authors": [
-          "Koohkansaadi G",
-          "Tabean M",
-          "Mohagheghi A",
-          "Masoumi S",
-          "Jahanabad ZJ",
-          "Mobed A",
-          "Charsouei S"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/40058719/"
+        "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
+        "year": 2019,
+        "authors": [],
+        "url": "https://clinicaltrials.gov/"
       },
       {
-        "title": "Preparation of novel anthraquinone-based aspirin derivatives with anti-cancer activity.",
-        "year": 2021,
-        "authors": [
-          "Lin S",
-          "Zhang Y",
-          "Wang Z",
-          "Zhang S",
-          "Li Y",
-          "Fan Y",
-          "Li D",
-          "Li S",
-          "Bai Y"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/33741381/"
+        "title": "AVAJAK: Apixaban/Rivaroxaban Versus Aspirin for Primary Prevention of Thrombo-embolic Complications in JAK2V617F-positive Myeloproliferative Neoplasms",
+        "year": 2022,
+        "authors": [],
+        "url": "https://clinicaltrials.gov/"
       }
     ],
-    "summary": "Exploration of nanotechnology for aspirin delivery (nanosensors), repurposing for cancer therapy via structural modifications (anthraquinone derivatives), and ongoing studies on preventive roles in preeclampsia."
+    "summary": "1) Repurposing for obstetric applications (preeclampsia prevention) with dose optimization studies\n2) Exploration in hematologic malignancies with high thrombotic risk (JAK2V617F+ MPNs)\n3) Development of novel formulations (nanosensors) and derivatives (anthraquinone-based anti-cancer compounds)\n4) Comparative effectiveness research against newer anticoagulants in secondary prevention settings"
   },
   "patents": {
     "total_patents": 0,
@@ -66,23 +67,32 @@
   "market_analysis": {
     "top_indications": [
       {
-        "disease": "Anthraquinone-Based Anti-Cancer Repurposing",
-        "market_size_usd_billion": 2e-7,
-        "competition": "Big pharmaceutical company A (Anthraquinone derivatives), Oncology-focused biotech B (Targeted therapies), Generic drug manufacturer C (Cancer treatment lines)",
-        "potential_score": 0.33
+        "disease": "Primary prevention of thromboembolic complications in JAK2V617F-positive myeloproliferative neoplasms",
+        "market_size_usd_billion": 1.0,
+        "competition": "Off-label anticoagulants (e.g., warfarin), Hydroxyurea (for MPN management)",
+        "potential_score": 0.17
+      },
+      {
+        "disease": "Prevention of preeclampsia in high-risk pregnancies",
+        "market_size_usd_billion": 1e-9,
+        "competition": "Bayer AG (aspirin brand), Generic aspirin manufacturers",
+        "potential_score": 0.16
       }
     ],
-    "summary": "Analysis of 1 potential indications completed. See top_indications for details."
+    "summary": "Analysis of 2 potential indications completed. See top_indications for details."
   },
   "visualization_data": {
     "charts": {
-      "trials_by_disease": {},
+      "trials_by_disease": {
+        "Pre-Eclampsia, Hypertension in Pregnancy, Obesity": 1,
+        "Polycythemia Vera, Essential Thrombocythemia, Prefibrotic/Early Primary Myelofibrosis, JAK2 V617F, High-risk Patients": 1
+      },
       "patent_trend": {},
       "market_potential": {}
     }
   },
   "report_links": {
     "pdf_report": "https://pharmamind.ai/reports/aspirin_report.pdf",
-    "timestamp": "2025-10-29T04:44:06.273088"
+    "timestamp": "2025-10-29T05:45:33.147024"
   }
 }
