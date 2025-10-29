@@ -26,8 +26,12 @@ def get_llm():
     
     # We use gemini-1.5-flash-latest. It's fast, cheap, and
     # excellent at following structured JSON instructions.
+    
+    # --- FIX ---
+    # Removed the "models/" prefix. The library will now correctly
+    # select the right API version (like v1) for this model.
     llm = ChatGoogleGenerativeAI(
-        model="models/gemini-1.5-flash-latest",
+        model="gemini-2.5-flash",
         google_api_key=GOOGLE_API_KEY,
         temperature=0,      # Set to 0 for deterministic, factual outputs
         convert_system_message_to_human=True # Helps with compatibility

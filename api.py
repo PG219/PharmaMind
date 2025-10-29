@@ -31,7 +31,7 @@ async def get_drug_report(drug_name: str):
     result = master_chain.invoke({"drug_name": drug_name})
     
     if isinstance(result, FinalReport):
-        print(f"Successfully generated report for: {drug_name}")
+        print(f"Successfully generated report for: {drug_name}") 
         return result.model_dump()
     else:
         return {"error": "Unexpected output type", "result": str(result)}

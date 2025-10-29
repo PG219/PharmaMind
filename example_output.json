@@ -1,62 +1,40 @@
 {
-  "drug_name": "Aspirin",
+  "drug_name": "gg",
   "summary": {
-    "overall_insight": "Aspirin shows significant repurposing potential based on recent research and market analysis."
+    "overall_insight": "gg shows significant repurposing potential based on recent research and market analysis."
   },
   "clinical_trials": {
     "total_trials": 2,
     "trials_by_disease": {
-      "Pre-Eclampsia, Hypertension in Pregnancy, Obesity": 1,
-      "Polycythemia Vera, Essential Thrombocythemia, Prefibrotic/Early Primary Myelofibrosis, JAK2 V617F, High-risk Patients": 1
+      "Diabetes Mellitus, Type 1": 1,
+      "Caries, Dental": 1
     },
     "key_trials": [
       {
-        "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
-        "phase": "PHASE2",
-        "status": "COMPLETED",
-        "year": 2019,
+        "title": "Effect of Lactobacillus Rhamnosus GG and Bifidobacterium Lactis BB 12 on Beta-cell Function in Children With Newly Diagnosed Type 1 Diabetes - a Randomized Controlled Trial",
+        "phase": "PHASE4",
+        "status": "UNKNOWN",
+        "year": 2017,
         "url": "https://clinicaltrials.gov/"
       },
       {
-        "title": "AVAJAK: Apixaban/Rivaroxaban Versus Aspirin for Primary Prevention of Thrombo-embolic Complications in JAK2V617F-positive Myeloproliferative Neoplasms",
-        "phase": "PHASE3",
-        "status": "RECRUITING",
-        "year": 2022,
+        "title": "Effect of Lactobacillus Rhamnosus GG and Bifidobacterium Longum in Children Aged 3 to 5 Years of Villavicencio and Pasto",
+        "phase": "NA",
+        "status": "COMPLETED",
+        "year": 2017,
         "url": "https://clinicaltrials.gov/"
       }
     ],
-    "summary": "1) Repurposing for obstetric applications (preeclampsia prevention) with dose optimization studies\n2) Exploration in hematologic malignancies with high thrombotic risk (JAK2V617F+ MPNs)\n3) Development of novel formulations (nanosensors) and derivatives (anthraquinone-based anti-cancer compounds)\n4) Comparative effectiveness research against newer anticoagulants in secondary prevention settings"
+    "summary": "Rising interest in the therapeutic potential of probiotics beyond gut health, particularly in metabolic disorders like Type 1 Diabetes and oral health conditions such as dental caries, highlighting their role in modulating systemic and local physiological processes."
   },
   "research_papers": {
-    "total_papers": 3,
+    "total_papers": 0,
     "key_topics": [
-      "Prevention of preeclampsia in high-risk pregnancies",
-      "Primary prevention of thromboembolic complications in JAK2V617F-positive myeloproliferative neoplasms"
+      "Diabetes Mellitus, Type 1",
+      "Caries, Dental"
     ],
-    "top_papers": [
-      {
-        "title": "Prevention of preeclampsia.",
-        "year": 2024,
-        "authors": [
-          "Brownfoot F",
-          "Rolnik DL"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/38373378/"
-      },
-      {
-        "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
-        "year": 2019,
-        "authors": [],
-        "url": "https://clinicaltrials.gov/"
-      },
-      {
-        "title": "AVAJAK: Apixaban/Rivaroxaban Versus Aspirin for Primary Prevention of Thrombo-embolic Complications in JAK2V617F-positive Myeloproliferative Neoplasms",
-        "year": 2022,
-        "authors": [],
-        "url": "https://clinicaltrials.gov/"
-      }
-    ],
-    "summary": "1) Repurposing for obstetric applications (preeclampsia prevention) with dose optimization studies\n2) Exploration in hematologic malignancies with high thrombotic risk (JAK2V617F+ MPNs)\n3) Development of novel formulations (nanosensors) and derivatives (anthraquinone-based anti-cancer compounds)\n4) Comparative effectiveness research against newer anticoagulants in secondary prevention settings"
+    "top_papers": [],
+    "summary": "Rising interest in the therapeutic potential of probiotics beyond gut health, particularly in metabolic disorders like Type 1 Diabetes and oral health conditions such as dental caries, highlighting their role in modulating systemic and local physiological processes."
   },
   "patents": {
     "total_patents": 0,
@@ -67,16 +45,16 @@
   "market_analysis": {
     "top_indications": [
       {
-        "disease": "Primary prevention of thromboembolic complications in JAK2V617F-positive myeloproliferative neoplasms",
+        "disease": "Diabetes Mellitus, Type 1",
         "market_size_usd_billion": 1.0,
-        "competition": "Off-label anticoagulants (e.g., warfarin), Hydroxyurea (for MPN management)",
-        "potential_score": 0.17
+        "competition": "Low",
+        "potential_score": 0.37
       },
       {
-        "disease": "Prevention of preeclampsia in high-risk pregnancies",
-        "market_size_usd_billion": 1e-9,
-        "competition": "Bayer AG (aspirin brand), Generic aspirin manufacturers",
-        "potential_score": 0.16
+        "disease": "Caries, Dental",
+        "market_size_usd_billion": 1.0,
+        "competition": "No major competitors identified",
+        "potential_score": 0.22
       }
     ],
     "summary": "Analysis of 2 potential indications completed. See top_indications for details."
@@ -84,15 +62,15 @@
   "visualization_data": {
     "charts": {
       "trials_by_disease": {
-        "Pre-Eclampsia, Hypertension in Pregnancy, Obesity": 1,
-        "Polycythemia Vera, Essential Thrombocythemia, Prefibrotic/Early Primary Myelofibrosis, JAK2 V617F, High-risk Patients": 1
+        "Diabetes Mellitus, Type 1": 1,
+        "Caries, Dental": 1
       },
       "patent_trend": {},
       "market_potential": {}
     }
   },
   "report_links": {
-    "pdf_report": "https://pharmamind.ai/reports/aspirin_report.pdf",
-    "timestamp": "2025-10-29T05:45:33.147024"
+    "pdf_report": "https://pharmamind.ai/reports/gg_report.pdf",
+    "timestamp": "2025-10-29T07:29:25.977113"
   }
 }
