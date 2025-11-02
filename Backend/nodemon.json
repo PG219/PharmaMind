@@ -1,0 +1,12 @@
+{
+  "watch": ["."],
+  "ext": "js,json",
+  "ignore": ["node_modules", ".git"],
+  "env": {
+    "NODE_ENV": "development",
+    "BACKEND_PORT": "3001",
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/pharmaMind"
+  }
+}
+
+
