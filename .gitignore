@@ -1,0 +1,127 @@
+
+# macOS
+.env
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Backend and Client node_modules (explicit paths for clarity)
+/Backend/node_modules/
+/Client/node_modules/
+
+# Build output
+/Client/dist/
+dist/
+build/
+.cache/
+.vite/
+
+# Vite / bundlers
+.parcel-cache/
+/.turbo/
+
+# Bun
+# Keep bun.lockb tracked by default. Ignore bun cache if present
+.bun/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+/Client/.env
+/Backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# OS generated files
+*.DS_Store
+*.Trash-* 
+ehthumbs.db
+Thumbs.db
+
+# Temporary and swap files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage and test result files
+coverage/
+test-results/
+
+# Secrets / keys
+*.pem
+*.key
+secrets/
+
+# Misc caches
+.cache/
+cache/
+__pypackages__/
+
+# Local environment and machine specific files
+local.env
+local-*.env
+
+# Ignore build artifacts from Python packaging, JS dist, etc. (already covered above)
+
+# If you want to keep lockfiles tracked (recommended), do NOT ignore package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb
+# If you prefer to ignore any lockfile, add it here, e.g.:
+# bun.lockb
