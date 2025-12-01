@@ -5,8 +5,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app.cjs",
+    "dev": "nodemon app.cjs"
   },
   "dependencies": {
     "axios": "^1.13.0",
